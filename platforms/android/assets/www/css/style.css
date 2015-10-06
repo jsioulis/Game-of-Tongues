@@ -1,0 +1,61 @@
+/* Empty. Add your own CSS if you like */
+
+.pane { 
+	background: url("../img/zanta-bg.jpg"); 
+	background-size: cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+}
+
+.custom-button {
+	background-color: #E62E20;
+	border: 1px solid;
+	border-color: #000;
+	border-radius: 1000px 1000px;
+	width: 150px;
+	height: 150px;
+	font-size: 5em;
+	color: #fff;
+	text-align: center;
+}
+
+.custom-button:active {
+	background-color: yellow;
+}
+
+.twister-box {
+	text-align: center;
+}
+
+.twister-area {
+	color: #fff;
+	line-height: 30px;
+	border: 1px solid;
+	border-color: #E62E20;
+	border-radius: 1000px 1000px;
+	font-size: 28px;
+	padding: 20px;
+	margin: 20px;
+}
+
+.timer-area {
+	font-size: 28px;
+	color: #fff;
+	border: 1px solid;
+	border-color: #E62E20;
+	border-radius: 1000px 1000px;
+	padding: 20px;
+	margin: 20px;
+}
+
+.instructions-button {
+	background-color: #E62E20;
+	border: 1px solid;
+	border-color: #000;
+	border-radius: 1000px 1000px;
+	width: 150px;
+	height: 150px;
+	font-size: 80px;
+	color: #fff;
+	text-align: center;
+}
