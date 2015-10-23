@@ -47,6 +47,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       }
     }
   })
+
+  .state('tab.main', {
+    url: '/main',
+    views: {
+      'tab-main': {
+        templateUrl: 'templates/tab-main.html',
+        controller: 'MainCtrl'
+      }
+    }
+  })
   
   .state('tab.twisters', {
     url: '/twisters',

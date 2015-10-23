@@ -15,7 +15,13 @@ angular.module('starter.controllers', [])
   };
 })
 
-.controller('TwistCtrl', function($scope) {})
+.controller('TwistCtrl', function($scope) {
+  $scope.data = {}
+})
+
+.controller('MainCtrl', function($scope) {
+  $scope.data = {}
+})
 
 .controller('ChatsCtrl', function($scope, Chats) {
   $scope.chats = Chats.all();
